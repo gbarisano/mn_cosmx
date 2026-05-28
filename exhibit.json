@@ -1,1 +1,116 @@
-{"Images": [{"Name": "i0", "Description": "", "Path": "images/mn4_ds2-20260528-151502", "Width": 24472, "Height": 9081, "MaxLevel": 0}], "Header": "", "Rotation": 0, "Layout": {"Grid": [["i0"]]}, "Stories": [{"Name": "", "Description": "", "Waypoints": []}], "Channels": [{"Rendered": false, "Name": "PanCK", "Path": "PanCK_0__PanCK"}, {"Rendered": false, "Name": "CD68", "Path": "CD68_1__CD68"}, {"Rendered": false, "Name": "Membrane", "Path": "Membrane_2__Membrane"}, {"Rendered": false, "Name": "CD45", "Path": "CD45_3__CD45"}, {"Rendered": false, "Name": "DAPI", "Path": "DAPI_4__DAPI"}], "Masks": [], "Groups": [{"Name": "Overview", "Colors": ["00ff00", "ffff00", "00ffff", "ff00ff", "ffffff"], "Channels": ["PanCK", "CD68", "Membrane", "CD45", "DAPI"], "Descriptions": ["", "", "", "", ""]}], "PixelsPerMicron": 8.313868834336144, "FirstViewport": {"Zoom": 0.3710771493952272, "Pan": [1.3474286972800353, 0.5]}}
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "",
+      "Path": "images/mn4_ds2-20260528-151502",
+      "Width": 24472,
+      "Height": 9081,
+      "MaxLevel": 0
+    }
+  ],
+  "Header": "",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": []
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "PanCK",
+      "Path": "PanCK_0__PanCK"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD68",
+      "Path": "CD68_1__CD68"
+    },
+    {
+      "Rendered": false,
+      "Name": "Membrane",
+      "Path": "Membrane_2__Membrane"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD45",
+      "Path": "CD45_3__CD45"
+    },
+    {
+      "Rendered": false,
+      "Name": "DAPI",
+      "Path": "DAPI_4__DAPI"
+    },
+    {
+      "Rendered": true,
+      "Name": "Hematoxylin",
+      "Path": "HE-0_0__HE"
+    },
+    {
+      "Rendered": true,
+      "Name": "Eosin",
+      "Path": "HE-0_0__HE"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "Overview",
+      "Colors": [
+        "00ff00",
+        "ffff00",
+        "00ffff",
+        "ff00ff",
+        "ffffff"
+      ],
+      "Channels": [
+        "PanCK",
+        "CD68",
+        "Membrane",
+        "CD45",
+        "DAPI"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "H&E",
+      "Path": "HE-0_0__HE",
+      "Colors": [
+        "6000A0",
+        "D030D0"
+      ],
+      "Channels": [
+        "Hematoxylin",
+        "Eosin"
+      ]
+    }
+  ],
+  "PixelsPerMicron": 8.313868834336144,
+  "FirstViewport": {
+    "Zoom": 0.3710771493952272,
+    "Pan": [
+      1.3474286972800353,
+      0.5
+    ]
+  },
+  "Lensing": {
+    "Group": "H&E",
+    "Rad": 100
+  }
+}
